@@ -1,0 +1,177 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr); 
+    grid-template-rows: repeat(16, 1fr);  
+    width: 300px;
+    height: 300px;
+    
+  }
+  .box1{
+    background-color: rgb(228, 248, 255);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-bottom: 5px solid black;
+  }
+  .box2{
+    background-color: rgb(236, 236, 236);
+    grid-column-start: 5;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 5px solid black;
+    border-top: 0;
+  }
+  .box3{
+    background-color: rgb(255, 214, 100);
+    grid-column-start: 11;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-bottom: 5px solid black;
+  }
+  .box4{
+    background-color: rgb(246, 250, 210);
+    grid-column-start: 15;
+    grid-column-end: 16;
+    grid-row-start: 1;
+    grid-row-end: 13;
+    border-left: 5px solid black;
+  }
+  .box5{
+    background-color: red;
+    grid-column-start: 15;
+    grid-column-end: 16;
+    grid-row-start: 13;
+    grid-row-end: 17;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+  }
+  .box6{
+    background-color: rgb(255, 255, 250);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+  }
+  .box7{
+    background-color: red;
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 11;
+    border-right: 5px solid black;
+    
+  }
+  .box8{
+    background-color: rgb(228, 248, 255);
+    grid-column-start: 11;
+    grid-column-end: 15;
+    grid-row-start: 11;
+    grid-row-end: 13;
+    border-top: 5px solid black; 
+  }
+  .box9{
+    background-color: rgb(228, 248, 255);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 13;
+    border-right: 5px solid black; 
+  }
+  .box10{
+    background-color: rgb(255, 214, 100);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 13;
+    grid-row-end: 17;
+    border-right: 5px solid black; 
+    border-top: 5px solid black;
+  }
+  .box11{
+    background-color: rgb(0, 0, 0);
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 11;
+    grid-row-end: 15;
+    
+  }
+  .box12{
+    background-color: rgb(255, 214, 100);
+    grid-column-start: 11;
+    grid-column-end: 15;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    border-bottom: 5px solid black;
+  }
+  .box13{
+    background-color: rgb(238, 238, 238);
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 7;
+    grid-row-end: 11;
+    border-right: 3px solid black;
+  }
+  .box14{
+    background-color: rgb(247, 247, 247);
+    grid-column-start: 13;
+    grid-column-end: 15;
+    grid-row-start: 7;
+    grid-row-end: 11;
+    border-left: 2px solid black;
+  }
+  .box15{
+    background-color: rgb(214, 214, 214);
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 11;
+    grid-row-end: 13;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+  }
+  .box16{
+    background-color: rgb(252, 252, 252);
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 13;
+    grid-row-end: 15;
+    border: 5px solid black;
+    border-left: 0;
+  }
+  .box17{
+    background-color: rgb(0, 0, 0);
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 15;
+    grid-row-end: 16;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+  }
+  .box18{
+    background-color: rgb(228, 228, 228);
+    grid-column-start: 7;
+    grid-column-end: 15;
+    grid-row-start: 16;
+    grid-row-end: 17;
+    border-top: 5px solid black;
+  }
+  .box19{
+    background-color: rgb(228, 228, 228);
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 15;
+    grid-row-end: 17;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+  }
+  .box20{
+    background-color: rgb(57, 33, 192);
+    grid-column-start: 11;
+    grid-column-end: 15;
+    grid-row-start: 13;
+    grid-row-end: 16;
+    border-top: 5px solid black;
+  }
